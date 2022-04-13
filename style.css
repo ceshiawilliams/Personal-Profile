@@ -89,7 +89,7 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: rgba(167, 104, 104, 0.5);
+    background: rgb(203 122 122);
     display: flex;
     align-items: center;
     justify-content: center;
