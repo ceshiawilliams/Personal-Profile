@@ -38,7 +38,11 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: url("images/img7.jpg");
+    background-image: url("images/img8.jpg");
+    /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+    /* background-image: ("images/new-images/img5.avif"); */
     /* background: yellow; */
     overflow-x: hidden;
     padding-left: 35rem;
@@ -89,7 +93,7 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: rgb(203 122 122);
+    background: rgba(70, 214, 166, 0.571);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,11 +138,11 @@ header .navbar ul li a{
     padding: 1rem;
     margin: 1.5rem 0;
     background:transparent;
-    color: rgb(131, 46, 170);
+    color: rgb(10, 23, 139);
     font-weight: bolder;
     font-size: 2rem;
     border-radius: 5rem;
-    border: 1px solid var(--orange);
+    border: 1px solid rgb(208, 255, 0);
 }
 
 header .navbar ul li a:hover{
@@ -266,29 +270,31 @@ header .navbar ul li a:hover{
 
 .journey .box-container .box span{
     font-size: 1.3rem;
-    background: #222;
-    color: #fff;
+    background: rgba(190, 142, 11, 0.229);
+    color: rgb(0, 0, 0);
     border-radius: 5rem;
     padding: .5rem 2.5rem;
 }
 
 .journey .box-container .box h3{
     font-size: 2rem;
-    color: var(--orange);
+    color: rgb(11, 154, 190);
     padding-top: 1.5rem;
 }
 
 
 .journey .box-container .box p{
     font-size: 1.4rem;
-    color: #eee;
+    color: rgb(0, 0, 0);
     padding-top: 1rem 0;
+    font-size: large;
 }
 
 .journey .box-container .box ul li{
     font-size: 1.4rem;
-    color: #eee;
+    color: rgb(0, 0, 0);
     padding-top: 1rem 0;
+    font-size: large;
 }
 
 .journey .box-container .box i{
@@ -302,7 +308,7 @@ header .navbar ul li a:hover{
     font-size: center;
     font-size: 2rem;
     color: #fff;
-    background: var(--orange);
+    background: rgb(70, 214, 166);
 }
 
 .portfolio .box-container{
@@ -352,6 +358,7 @@ header .navbar ul li a:hover{
     margin: 2rem;
     margin-bottom: 4rem;
 }
+
 
 .contact .row form .box{
     padding: 1.5rem;
