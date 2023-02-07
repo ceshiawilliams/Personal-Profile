@@ -49,7 +49,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 1rem;
 }
 
@@ -355,6 +355,30 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
 }
 
+.contact .box-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.contact .box-container .column {
+    flex: 50%;
+    padding: 10px;
+    /* height: 300px;  */
+}
+
+.contact .box-container .box{
+    /* width: 27rem; */
+    
+    margin: 1rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
 .contact .row .content{
     flex: 1 1 35rem;
     padding: 4rem;
@@ -400,6 +424,13 @@ header .navbar ul li a:hover{
     color: #fff;
     font-size: 4rem;
     padding-bottom: 2rem;
+}
+
+.contact .row .content .titleRef{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
 .contact .row .content .info h3{
