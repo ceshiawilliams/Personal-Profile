@@ -365,7 +365,7 @@ header .navbar ul li a:hover{
 }
 
 .contact .box-container .column {
-    flex: 50%;
+    flex: 25%;
     padding: 10px;
     /* height: 300px;  */
 }
